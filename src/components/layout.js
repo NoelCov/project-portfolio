@@ -6,10 +6,10 @@ import NavBar from "./navbar/navbar.component"
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <>
       <NavBar />
-      {children}
-    </div>
+      <div className="children"> {children} </div>
+    </>
   )
 }
 

@@ -20,6 +20,12 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+.children {
+  margin: 0 20px;
+  color: white;
+}
+
 article,
 aside,
 details,

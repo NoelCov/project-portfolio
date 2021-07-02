@@ -2,9 +2,11 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 
+import HeaderComponent from "../components/header/header.component"
+
 const IndexPage = () => (
   <Layout>
-    <p>This is HOME PAGE</p>
+    <HeaderComponent />
   </Layout>
 )
 
