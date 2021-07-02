@@ -1,0 +1,40 @@
+.about-container {
+  margin: 30% 0;
+  text-align: center;
+  color: white;
+
+  .decoration-line {
+    width: 40%;
+    height: 3px;
+    background-color: #1f1f1f;
+    margin: 0 auto 30px;
+  }
+
+  .about-title {
+    font-size: 26px;
+    margin: 15px 0;
+    color: #bb86fc;
+  }
+
+  .about-me-text {
+    font-size: 15px;
+
+    .nickname {
+      color: #bb86fc;
+      color: #03dac6;
+    }
+  }
+
+  .skills-title {
+    font-size: 20px;
+    margin: 60px 0 25px;
+    color: #bb86fc;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 15px;
+    color: #03dac6;
+  }
+}

@@ -9,30 +9,34 @@ import "./navbar.styles.scss"
 const NavBar = () => {
   const [hidden, toggleHidden] = useState(true)
 
+  const onClick = () => {
+    toggleHidden(!hidden);
+  }
+
   return (
     <div>
       <div className={hidden ? "open-menu" : "open-menu active"}>
-        <span className="close-icon" onClick={() => toggleHidden(!hidden)}>
+        <span className="close-icon" onClick={onClick}>
           &#x2716;
         </span>
         <span>
-          <Link to={"/"} className="navbar-link">
+          <Link to="/about" className="navbar-link" onClick={onClick}>
             ABOUT
           </Link>
         </span>
         <span>
-          <Link to={"/"} className="navbar-link">
+          <Link to={"/"} className="navbar-link" onClick={onClick}>
             PROJECTS
           </Link>
         </span>
         <span>
-          <Link to={"/"} className="navbar-link">
+          <Link to={"/"} className="navbar-link" onClick={onClick}>
             CONTACT
           </Link>
         </span>
       </div>
       <nav className="navbar">
-        <span className="navbar-title">NO3L CODES</span>
+        <Link to="/" className="navbar-title">NO3L CODES</Link>
         <div className="hamburger-menu" onClick={() => toggleHidden(!hidden)}>
           <span className="hamburger-line"></span>
           <span className="hamburger-line"></span>

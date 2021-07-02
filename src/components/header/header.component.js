@@ -9,7 +9,7 @@ import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
 const HeaderComponent = () => {
   return (
     <div className="header-container">
-      <p className="greeting">Hello, I'm</p>
+      <p className="greeting">Hi, my name is</p>
       <p className="name">
         Noel Covarrubias
         <br />
@@ -25,6 +25,7 @@ const HeaderComponent = () => {
           href="https://www.github.com/noelcov/"
           target="_blank"
           className="icon"
+          rel="noreferrer"
         >
           <AiOutlineGithub />
         </a>
@@ -32,6 +33,7 @@ const HeaderComponent = () => {
           href="https://www.twitter.com/No3l_Codes"
           target="_blank"
           className="icon"
+          rel="noreferrer"
         >
           <AiOutlineTwitter />
         </a>
@@ -39,10 +41,12 @@ const HeaderComponent = () => {
           href="https://www.linkedin.com/in/noelcodes/"
           target="_blank"
           className="icon"
+          rel="noreferrer"
         >
           <AiOutlineLinkedin />
         </a>
       </div>
+      <a className="button" href="mailto:no3lcodes@gmail.com" rel="noopener noreferrer">Contact Me</a>
     </div>
   )
 }
