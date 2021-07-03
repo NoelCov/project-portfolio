@@ -1,0 +1,46 @@
+.contact-container {
+  margin: 35% 0;
+  text-align: center;
+  color: gray;
+
+  .decoration-line {
+    width: 40%;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto 30px;
+  }
+
+  .contact-title {
+    font-size: 26px;
+    margin: 15px 0;
+    color: #bb86fc;
+  }
+
+  .contact-text {
+    font-size: 16px;
+  }
+
+  .socials-title {
+    font-size: 20px;
+    margin: 60px 0 25px;
+    color: #bb86fc;
+  }
+
+  .socials-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: space-between;
+    text-decoration: none;
+    margin-bottom: 80px;
+
+    .social {
+      font-size: 32px;
+      color: gray;
+
+      &:hover {
+        color: #03dac6;
+      }
+    }
+  }
+}

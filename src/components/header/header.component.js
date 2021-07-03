@@ -6,6 +6,8 @@ import { AiOutlineGithub } from "@react-icons/all-files/ai/AiOutlineGithub"
 import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter"
 import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
 
+import ContactButton from "../contact-button/contact-button.component"
+
 const HeaderComponent = () => {
   return (
     <div className="header-container">
@@ -18,7 +20,6 @@ const HeaderComponent = () => {
       <p className="subtitle">
         I'm a <span className="title">Software Engineer</span>
       </p>
-
       <div className="icons-container">
         <hr />
         <a
@@ -46,7 +47,7 @@ const HeaderComponent = () => {
           <AiOutlineLinkedin />
         </a>
       </div>
-      <a className="button" href="mailto:no3lcodes@gmail.com" rel="noopener noreferrer">Contact Me</a>
+      <ContactButton text="Contact Me" />
     </div>
   )
 }

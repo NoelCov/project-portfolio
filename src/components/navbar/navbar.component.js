@@ -30,14 +30,14 @@ const NavBar = () => {
           </Link>
         </span>
         <span>
-          <Link to={"/"} className="navbar-link" onClick={onClick}>
+          <Link to="/contact" className="navbar-link" onClick={onClick}>
             CONTACT
           </Link>
         </span>
       </div>
       <nav className="navbar">
         <Link to="/" className="navbar-title">NO3L CODES</Link>
-        <div className="hamburger-menu" onClick={() => toggleHidden(!hidden)}>
+        <div className="hamburger-menu" onClick={onClick}>
           <span className="hamburger-line"></span>
           <span className="hamburger-line"></span>
           <span className="hamburger-line"></span>
