@@ -4,16 +4,20 @@
   flex-direction: column;
   text-decoration: none;
   color: white;
-  height: 300px;
+  min-height: 350px;
   margin: 0 auto;
   padding: 8px 10px;
   border: 1.8px dashed #bb86fc;
 
-  .image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 80%;
+  .image-container {
+    height: 55%;
+
+    .image {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top;
+      height: 100%;
+    }
   }
 
   .project-title {
@@ -30,7 +34,7 @@
     position: absolute;
     font-size: 25px;
     color: #bb86fc;
-    bottom: 2px;
+    bottom: 5px;
     right: 8px;
   }
 }

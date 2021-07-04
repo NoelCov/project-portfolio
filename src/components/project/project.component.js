@@ -14,11 +14,18 @@ const Project = projectData => {
   } = projectData.projectData
 
   return (
-    <a href={projectWebsite} target="_blank" className="project" rel="noopener noreferrer">
+    <a
+      href={projectWebsite}
+      target="_blank"
+      className="project"
+      rel="noopener noreferrer"
+    >
       <a className="icon" href={projectRepo} rel="noopener noreferrer">
         <AiOutlineGithub />
       </a>
-      <div className="image" style={{ backgroundImage: `url(${img})` }} />
+      <div className="image-container">
+        <div className="image" style={{ backgroundImage: `url(${img})` }} />
+      </div>
       <h2 className="project-title">{title}</h2>
       <span className="text">{text}</span>
     </a>
