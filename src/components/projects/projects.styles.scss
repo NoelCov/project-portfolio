@@ -1,0 +1,31 @@
+.projects-container {
+  margin: 20% 0;
+  text-align: center;
+
+  .projects-title {
+    font-size: 26px;
+    margin: 15px 0;
+    color: #bb86fc;
+  }
+
+  .decoration-line {
+    width: 40%;
+    height: 3px;
+    background-color: #1f1f1f;
+    margin: 0 auto 30px;
+  }
+
+  .projects-text {
+    font-size: 18px;
+    color: gray;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 65px 0;
+    row-gap: 80px;
+    color: white;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,36 @@
+.project {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  height: 300px;
+  margin: 0 auto;
+  padding: 8px 10px;
+  border: 1.8px dashed #bb86fc;
+
+  .image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 80%;
+  }
+
+  .project-title {
+    font-size: 18px;
+    color: #03dac6;
+  }
+
+  .text {
+    font-size: 15px;
+    color: white;
+  }
+
+  .icon {
+    position: absolute;
+    font-size: 25px;
+    color: #bb86fc;
+    bottom: 2px;
+    right: 8px;
+  }
+}

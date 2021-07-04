@@ -25,7 +25,7 @@ const NavBar = () => {
           </Link>
         </span>
         <span>
-          <Link to={"/"} className="navbar-link" onClick={onClick}>
+          <Link to="/projects" className="navbar-link" onClick={onClick}>
             PROJECTS
           </Link>
         </span>
