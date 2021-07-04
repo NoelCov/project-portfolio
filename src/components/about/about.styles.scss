@@ -64,3 +64,23 @@
     }
   }
 }
+
+@media screen and (min-width: 1250px) {
+  .about-container {
+    margin: 10% 25%;
+
+    .about-title {
+      font-size: 38px;
+    }
+
+    .about-me-text {
+      letter-spacing: 1.5px;
+      font-size: 22px;
+    }
+
+    .skills-container {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+}

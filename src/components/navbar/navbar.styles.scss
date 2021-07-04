@@ -40,6 +40,7 @@
     height: 100%;
     width: 80%;
     position: absolute;
+    top: 0;
     right: 0;
     z-index: 1;
     animation-name: slide;
@@ -83,6 +84,40 @@
       .hamburger-line {
         width: 30px;
         height: 4px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .navbar {
+    .hamburger-menu {
+      display: none;
+    }
+
+    .navbar-title {
+      font-size: 30px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .open-menu {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    background-color: #1f1f1f;
+    justify-content: flex-end;
+
+    .close-icon {
+      display: none;
+    }
+
+    .navbar-link {
+      margin-left: 50px;
+      font-size: 16px;
+
+      &:hover {
+        color: white;
       }
     }
   }

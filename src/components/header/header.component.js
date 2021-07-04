@@ -13,8 +13,8 @@ const HeaderComponent = () => {
     <div className="header-container">
       <p className="greeting">Hi, my name is</p>
       <p className="name">
-        Noel Covarrubias
-        <br />
+        <span>Noel Covarrubias </span>
+        {window.innerWidth < 1450 ? <br /> : null}
         aka No3l Codes
       </p>
       <p className="subtitle">

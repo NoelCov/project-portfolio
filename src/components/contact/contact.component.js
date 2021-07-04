@@ -11,7 +11,7 @@ import ContactButton from "../contact-button/contact-button.component"
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="contact-title">Contact Me</div>
       <hr className="decoration-line" />
       <span className="contact-text">
@@ -21,18 +21,34 @@ const Contact = () => {
       <div className="socials-title">All my socials :)</div>
       <hr className="decoration-line" />
       <div className="socials-container">
-        <a href="https://twitter.com/No3l_Codes" className="social">
+        <a
+          href="https://twitter.com/No3l_Codes"
+          target="_blank"
+          className="social"
+        >
           <AiOutlineTwitter />
         </a>
-        <a href="https://github.com/NoelCov/" className="social">
+        <a
+          href="https://github.com/NoelCov/"
+          target="_blank"
+          className="social"
+        >
           <AiOutlineGithub />
         </a>
 
-        <a href="https://www.linkedin.com/in/noelcodes/" className="social">
+        <a
+          href="https://www.linkedin.com/in/noelcodes/"
+          target="_blank"
+          className="social"
+        >
           <AiOutlineLinkedin />
         </a>
 
-        <a href="https://www.instagram.com/no3lcodes/" className="social">
+        <a
+          href="https://www.instagram.com/no3lcodes/"
+          target="_blank"
+          className="social"
+        >
           <AiOutlineInstagram />
         </a>
       </div>

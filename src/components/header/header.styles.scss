@@ -70,3 +70,34 @@
     }
   }
 }
+
+@media screen and (min-width: 1250px) {
+  .header-container {
+    margin: 8% 20%;
+    letter-spacing: 5px;
+    text-align: center;
+
+    .greeting {
+      margin-bottom: 30px;
+      font-size: 36px;
+    }
+
+    .name {
+      font-size: 55px;
+    }
+
+    .icons-container {
+      .icon {
+        font-size: 40px;
+
+        &:hover {
+          color: #03dac6;
+        }
+      }
+
+      hr {
+        width: 25%;
+      }
+    }
+  }
+}

@@ -66,3 +66,30 @@
     }
   }
 }
+
+@media screen and (min-width: 1250px) {
+  .project {
+    min-height: 650px;
+
+    .image-container {
+      height: 80%;
+    }
+
+    .project-title {
+      margin-top: 8px;
+      font-size: 30px;
+    }
+
+    .text {
+      margin: 40px 20px;
+      width: 50%;
+      align-self: center;
+    }
+
+    .icon {
+      &:hover {
+        color: #03dac6;
+      }
+    }
+  }
+}

@@ -10,40 +10,43 @@ const NavBar = () => {
   const [hidden, toggleHidden] = useState(true)
 
   const onClick = () => {
-    toggleHidden(!hidden);
+    if (window.innerWidth < 1250) {
+      return toggleHidden(!hidden)
+    }
+    return null;
   }
 
   return (
-    <div>
+    <nav className="navbar">
+      <Link to="/" className="navbar-title">
+        NO3L CODES
+      </Link>
       <div className={hidden ? "open-menu" : "open-menu active"}>
         <span className="close-icon" onClick={onClick}>
           &#x2716;
         </span>
         <span>
-          <Link to="/about" className="navbar-link" onClick={onClick}>
+          <a href="#about" className="navbar-link" onClick={onClick}>
             ABOUT
-          </Link>
+          </a>
         </span>
         <span>
-          <Link to="/projects" className="navbar-link" onClick={onClick}>
+          <a href="#projects" className="navbar-link" onClick={onClick}>
             PROJECTS
-          </Link>
+          </a>
         </span>
         <span>
-          <Link to="/contact" className="navbar-link" onClick={onClick}>
+          <a href="#contact" className="navbar-link" onClick={onClick}>
             CONTACT
-          </Link>
+          </a>
         </span>
       </div>
-      <nav className="navbar">
-        <Link to="/" className="navbar-title">NO3L CODES</Link>
-        <div className="hamburger-menu" onClick={onClick}>
-          <span className="hamburger-line"></span>
-          <span className="hamburger-line"></span>
-          <span className="hamburger-line"></span>
-        </div>
-      </nav>
-    </div>
+      <div className="hamburger-menu" onClick={onClick}>
+        <span className="hamburger-line"></span>
+        <span className="hamburger-line"></span>
+        <span className="hamburger-line"></span>
+      </div>
+    </nav>
   )
 }
 
