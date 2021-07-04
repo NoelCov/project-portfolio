@@ -77,6 +77,10 @@
     letter-spacing: 5px;
     text-align: center;
 
+    br {
+      display: none;
+    }
+
     .greeting {
       margin-bottom: 30px;
       font-size: 36px;

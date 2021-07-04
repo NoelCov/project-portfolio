@@ -14,7 +14,7 @@ const HeaderComponent = () => {
       <p className="greeting">Hi, my name is</p>
       <p className="name">
         <span>Noel Covarrubias </span>
-        {window.innerWidth < 1450 ? <br /> : null}
+        <br />
         aka No3l Codes
       </p>
       <p className="subtitle">
