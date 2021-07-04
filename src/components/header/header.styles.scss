@@ -43,3 +43,30 @@
     }
   }
 }
+
+@media screen and (min-width: 750px) {
+  .header-container {
+    margin: 25% 0;
+    text-align: center;
+    letter-spacing: 3.4px;
+
+    .greeting {
+      font-size: 28px;
+    }
+
+    .name {
+      font-size: 45px;
+      line-height: 45px;
+    }
+
+    .title {
+      font-size: 38px;
+    }
+
+    .icons-container {
+      .icon {
+        font-size: 35px;
+      }
+    }
+  }
+}

@@ -28,3 +28,22 @@
     color: white;
   }
 }
+
+@media screen and (min-width: 750px) {
+  .projects-container {
+    margin: 20% 10%;
+    .projects-title {
+      font-size: 35px;
+    }
+
+    .projects-text {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .projects-container {
+      margin: 80px 0;
+      row-gap: 100px;
+    }
+  }
+}

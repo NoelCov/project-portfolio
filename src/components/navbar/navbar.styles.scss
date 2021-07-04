@@ -72,3 +72,18 @@
     text-decoration: none;
   }
 }
+
+@media screen and (min-width: 750px) {
+  .navbar {
+    .navbar-title {
+      font-size: 20px;
+    }
+
+    .hamburger-menu {
+      .hamburger-line {
+        width: 30px;
+        height: 4px;
+      }
+    }
+  }
+}
