@@ -25,12 +25,14 @@ const Contact = () => {
           href="https://twitter.com/No3l_Codes"
           target="_blank"
           className="social"
+          rel="noopener noreferrer"
         >
           <AiOutlineTwitter />
         </a>
         <a
           href="https://github.com/NoelCov/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social"
         >
           <AiOutlineGithub />
@@ -39,6 +41,7 @@ const Contact = () => {
         <a
           href="https://www.linkedin.com/in/noelcodes/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social"
         >
           <AiOutlineLinkedin />
@@ -47,6 +50,7 @@ const Contact = () => {
         <a
           href="https://www.instagram.com/no3lcodes/"
           target="_blank"
+          rel="noopener noreferrer"
           className="social"
         >
           <AiOutlineInstagram />

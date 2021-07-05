@@ -17,8 +17,8 @@ const Projects = () => {
         source code :)
       </p>
       <div className="projects-container">
-        {ProjectsData.map(project => (
-          <Project projectData={project} />
+        {ProjectsData.map((project, index) => (
+          <Project projectData={project} key={index} />
         ))}
       </div>
     </div>
