@@ -17,7 +17,7 @@ const Project = projectData => {
   return (
     <div className="project">
       <div className="image-container">
-        <div className="image" style={{ backgroundImage: `url(${img})` }} />
+      <img src={img} className="image" alt="project" />
       </div>
       <h2 className="project-title">{title}</h2>
       <span className="text">{text}</span>
@@ -36,7 +36,6 @@ const Project = projectData => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          {" "}
           <AiOutlineGithub />
         </a>
       </div>
