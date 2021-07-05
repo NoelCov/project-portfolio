@@ -24,7 +24,8 @@ const Project = projectData => {
         <AiOutlineGithub />
       </a>
       <div className="image-container">
-        <div className="image" style={{ backgroundImage: `url(${img})` }} />
+        {/* <div className="image" style={{ backgroundImage: `url(${img})` }} /> */}
+        <img src={img} alt="project-image" />
       </div>
       <h2 className="project-title">{title}</h2>
       <span className="text">{text}</span>
