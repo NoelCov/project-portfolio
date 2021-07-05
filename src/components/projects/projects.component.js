@@ -13,7 +13,7 @@ const Projects = () => {
       <hr className="decoration-line" />
       <p className="projects-text">
         These are some of the projects I have been working on. You can click on
-        them to open their website and click on the github icon to open the
+        the arrow icon to open their website the github icon to open the
         source code :)
       </p>
       <div className="projects-container">
