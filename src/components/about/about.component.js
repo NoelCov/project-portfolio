@@ -8,12 +8,11 @@ const About = () => {
       <div className="about-title">About Me</div>
       <hr className="decoration-line" />
       <span className="about-me-text">
-        My name is Noel Covarrubias but you can call me
+        My name is Noel Covarrubias also known as
         <span className="nickname"> No3l Codes. </span>I got into programming
-        about a year ago and I decided to self-learn it. At first I didn't
-        really know what path to take so I started with Python and it was really
+        about a year ago and I decided to self-learn it. I started with Python and it was really
         fun and all but then I got into web development and finally I decided to
-        go for a full-stack route so I call myself a 
+        go for the full-stack route so I am a 
         <span className="nickname"> Software Engineer</span>
       </span>
       <div className="skills-title">Technologies I've used recently</div>
