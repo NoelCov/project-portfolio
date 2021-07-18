@@ -1,5 +1,5 @@
 .about-container {
-  margin: 30% 0;
+  padding: 10vh 0 0;
   text-align: center;
   color: white;
 
@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 750px) {
   .about-container {
-    margin: 20% 10%;
+    padding: 10vh 10%;
     text-align: center;
 
     .about-title {
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 1250px) {
   .about-container {
-    margin: 10% 25%;
+    padding: 15vh 22% 0;
 
     .about-title {
       font-size: 38px;

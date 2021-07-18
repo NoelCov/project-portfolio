@@ -1,5 +1,5 @@
 .projects-container {
-  margin: 20% 0;
+  padding: 15vh 0 0;
   text-align: center;
 
   .projects-title {
@@ -23,15 +23,15 @@
   .projects-container {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 65px 0;
-    row-gap: 80px;
+    margin-top: 2vh;
+    gap: 80px;
     color: white;
   }
 }
 
 @media screen and (min-width: 750px) {
   .projects-container {
-    margin: 20% 10%;
+    padding: 10vh 5vw 0;
     .projects-title {
       font-size: 35px;
     }
@@ -43,14 +43,14 @@
 
     .projects-container {
       margin: 80px 0;
-      row-gap: 100px;
+      gap: 100px;
     }
   }
 }
 
 @media screen and (min-width: 1250px) {
   .projects-container {
-    margin: 10% 5%;
+    padding: 15vh 5% 0;
 
     .projects-text {
       width: 500px;

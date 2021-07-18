@@ -18,7 +18,7 @@ const HeaderComponent = () => {
         aka No3l Codes
       </p>
       <p className="subtitle">
-        I'm a <span className="title">Software Engineer</span>
+        I'm a <span className="title">Web Developer</span>
       </p>
       <div className="icons-container">
         <hr />

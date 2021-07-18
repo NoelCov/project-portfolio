@@ -10,15 +10,13 @@ const About = () => {
       <span className="about-me-text">
         My name is Noel Covarrubias also known as
         <span className="nickname"> No3l Codes. </span>I got into programming
-        about a year ago and I decided to self-learn it. I started with Python and it was really
-        fun and all but then I got into web development and finally I decided to
-        go for the full-stack route so I am a 
-        <span className="nickname"> Software Engineer</span>
+        about a year ago. I'm very passionate about it and I want to do this for
+        the rest of my life.
       </span>
       <div className="skills-title">Technologies I've used recently</div>
       <hr className="decoration-line" />
       <div className="skills-container">
-        <span className="skill">- Javascript (ES6+)</span>
+        <span className="skill">- Javascript</span>
         <span className="skill">- React JS</span>
         <span className="skill">- Gatsby JS</span>
         <span className="skill">- Node JS</span>
