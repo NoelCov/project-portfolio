@@ -15,24 +15,13 @@ export const ProjectContainer = styled.div`
 
   @media screen and (min-width: 1250px) {
     max-width: 50vw;
-    padding: 5vh 2vw;
-  }
-`
-
-export const ImageContainer = styled.div`
-  position: relative;
-  max-height: 45vh;
-
-  @media screen and (min-width: 1250px) {
-    position: relative;
-    width: auto;
-    height: 100%;
+    padding: 20px 0;
   }
 `
 
 export const Image = styled.img`
-  position: relative;
-  height: 100%;
+  width: 95%;
+  height: auto;
 `
 
 export const ProjectTitleContainer = styled.h2`
@@ -45,8 +34,8 @@ export const ProjectTitleContainer = styled.h2`
   }
 
   @media screen and (min-width: 1250px) {
-    margin-top: 5vh;
-    font-size: 30px;
+    margin-top: 3vh;
+    font-size: 26px;
   }
 `
 
@@ -61,7 +50,7 @@ export const TextContainer = styled.div`
   }
 
   @media screen and (min-width: 1250px) {
-    font-size: 20px;
+    font-size: 18px;
     width: 80%;
   }
 `
@@ -75,8 +64,13 @@ export const LinksContainer = styled.div`
 
 export const Link = styled.a`
   color: #bb86fc;
+  font-size: 14px;
 
   &: hover {
     color: gray;
+  }
+
+  @media screen and (min-width: 750px) {
+    font-size: 18px;
   }
 `

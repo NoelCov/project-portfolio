@@ -1,10 +1,7 @@
 import React from "react"
 
-// import { AiOutlineGithub } from "@react-icons/all-files/ai/AiOutlineGithub"
-
 import {
   ProjectContainer,
-  ImageContainer,
   Image,
   ProjectTitleContainer,
   TextContainer,
@@ -23,9 +20,7 @@ const Project = projectData => {
 
   return (
     <ProjectContainer>
-      <ImageContainer>
-        <Image src={img} alt="project" />
-      </ImageContainer>
+      <Image src={img} alt="project" />
       <ProjectTitleContainer>{title}</ProjectTitleContainer>
       <TextContainer>{text}</TextContainer>
       <LinksContainer>
