@@ -5,35 +5,35 @@ import { Helmet } from "react-helmet"
 const Seo = () => {
   return (
     <Helmet>
-      <title>Noel Covarrubias - Software Engineer - No3l Codes</title>
+      <title>Noel Covarrubias - Web Developer - No3l Codes</title>
       <meta
         name="title"
-        content="Noel Covarrubias - Software Engineer - No3l Codes"
+        content="Noel Covarrubias - Web Developer - No3l Codes"
       />
       <meta
         name="description"
-        content="I've always been into technology. Once I decided to get into programming everything changed in my life
-      and I love programming, I want and will do it for the rest of my life."
+        content="I've always been into technology. Once I decided to get into programming everything changed in my life, I quickly realized
+        that I loved creating things with my computer and this is what I want to do for the rest of my life."
       />
       <meta propert="og:url" content="https://www.no3lcodes.com" />
       <meta
         property="og:title"
-        content="Noel Covarrubias - Software Engineer - No3l Codes"
+        content="Noel Covarrubias - Web Developer - No3l Codes"
       />
       <meta
         property="og:description"
-        content="I've always been into technology. Once I decided to get into programming everything changed in my life
-      and I love programming, I want and will do it for the rest of my life."
+        content="I've always been into technology. Once I decided to get into programming everything changed in my life, I quickly realized
+        that I loved creating things with my computer and this is what I want to do for the rest of my life."
       />
       <meta property="twitter:url" content="https://www.no3lcodes.com" />
       <meta
         property="twitter:title"
-        content="Noel Covarrubias - Software Engineer - No3l Codes"
+        content="Noel Covarrubias - Web Developer - No3l Codes"
       />
       <meta
         property="twitter:description"
-        content="I've always been into technology. Once I decided to get into programming everything changed in my life
-      and I love programming, I want and will do it for the rest of my life."
+        content="I've always been into technology. Once I decided to get into programming everything changed in my life, I quickly realized
+        that I loved creating things with my computer and this is what I want to do for the rest of my life."
       />
     </Helmet>
   )

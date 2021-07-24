@@ -21,6 +21,10 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+a {
+  text-decoration: none;
+}
+
 .children {
   margin: 0 20px;
   color: white;

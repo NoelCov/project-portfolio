@@ -1,7 +1,7 @@
 import img1 from "../src/images/project-phones-online-store.jpg"
-import img2 from "../src/images/project-omega-coin.jpg"
+import img2 from "../src/images/marcus-project.jpg"
 
-const ProjectsData = [
+const projectsData = [
   {
     title: "No3l's Cellphone Store",
     text:
@@ -11,13 +11,14 @@ const ProjectsData = [
     projectRepo: "https://github.com/NoelCov/No3l-Phones-Online-Store",
   },
   {
-    title: "Omega Coin",
+    title: "Website for freelance client",
     text:
-      "A website that mimics a landing page for a new crypto currency. I used React and Sass to make it.",
+      `A freelance website I made for a client. It is a landing page for him and his business which is a barbershop.
+      Building this project I learned that communication is really important when working with a client.`,
     img: img2,
-    projectWebsite: "https://omega-coin.vercel.app/",
-    projectRepo: "https://github.com/NoelCov/OmegaCoin",
+    projectWebsite: "https://marcus-barbershop-website.vercel.app/",
+    projectRepo: "https://github.com/NoelCov/Marcus-barbershop-website",
   },
 ]
 
-export default ProjectsData
+export default projectsData;
