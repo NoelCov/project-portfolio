@@ -65,8 +65,15 @@ export const TextContainer = styled.div`
     width: 80%;
   }
 `
-export const ViewProjectLink = styled.a`
+
+export const LinksContainer = styled.div`
+  display: flex;
+  gap: 5vw;
+  align-items: center;
   margin-top: auto;
+`
+
+export const Link = styled.a`
   color: #bb86fc;
 
   &: hover {

@@ -8,11 +8,18 @@ import {
   Image,
   ProjectTitleContainer,
   TextContainer,
-  ViewProjectLink,
+  LinksContainer,
+  Link,
 } from "./project.styles"
 
 const Project = projectData => {
-  const { title, text, img, projectWebsite } = projectData.projectData
+  const {
+    title,
+    text,
+    img,
+    projectWebsite,
+    projectRepo,
+  } = projectData.projectData
 
   return (
     <ProjectContainer>
@@ -21,7 +28,14 @@ const Project = projectData => {
       </ImageContainer>
       <ProjectTitleContainer>{title}</ProjectTitleContainer>
       <TextContainer>{text}</TextContainer>
-      <ViewProjectLink href={projectWebsite} target="_blank">View Project</ViewProjectLink>
+      <LinksContainer>
+        <Link href={projectWebsite} target="_blank">
+          View Project
+        </Link>
+        <Link href={projectRepo} target="_blank">
+          View Source Code
+        </Link>
+      </LinksContainer>
     </ProjectContainer>
   )
 }
