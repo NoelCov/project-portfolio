@@ -1,7 +1,16 @@
 import img1 from "../src/images/project-phones-online-store.jpg"
 import img2 from "../src/images/marcus-project.jpg"
+import img3 from "../src/images/hashnode-hackaton.png"
 
 const projectsData = [
+  {
+    title: "Compare Prices - Hashnode's Hackathon",
+    text:
+      "I made this website for a hackathon I recently participated in. I used React JS, Node/Express and a few APIs",
+    projectWebsite: "https://compare-prices.vercel.app/",
+    projectRepo: "https://github.com/NoelCov/Compare-prices",
+    img: img3,
+  },
   {
     title: "No3l's Cellphone Store",
     text:
@@ -12,8 +21,7 @@ const projectsData = [
   },
   {
     title: "Website for freelance client",
-    text:
-      `A freelance website I made for a client. It is a landing page for him and his business which is a barbershop.
+    text: `A freelance website I made for a client. It is a landing page for him and his business which is a barbershop.
       Building this project I learned that communication is really important when working with a client.`,
     img: img2,
     projectWebsite: "https://marcus-barbershop-website.vercel.app/",
@@ -21,4 +29,4 @@ const projectsData = [
   },
 ]
 
-export default projectsData;
+export default projectsData

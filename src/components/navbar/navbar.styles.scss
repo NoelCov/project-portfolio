@@ -1,5 +1,5 @@
 .navbar {
-  height: 3rem;
+  min-height: 8vh;
   background-color: #1f1f1f;
   width: 100%;
   display: flex;
@@ -76,6 +76,8 @@
 
 @media screen and (min-width: 750px) {
   .navbar {
+    min-height: 6vh;
+
     .navbar-title {
       font-size: 20px;
     }
@@ -91,6 +93,7 @@
 
 @media screen and (min-width: 1250px) {
   .navbar {
+    min-height: 8vh;
     .hamburger-menu {
       display: none;
     }

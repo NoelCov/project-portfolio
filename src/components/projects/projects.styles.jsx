@@ -25,12 +25,6 @@ export const ProjectsTitleContainer = styled.div`
   }
 `
 
-export const DecorationLine = styled.hr`
-  width: 40%;
-  height: 3px;
-  background-color: #1f1f1f;
-  margin: 0 auto 30px;
-`
 export const ProjectsTextContainer = styled.p`
   font-size: 16px;
   color: gray;
@@ -44,6 +38,7 @@ export const ProjectsTextContainer = styled.p`
   }
 
   @media screen and (min-width: 1250px) {
+    font-size: 22px;
     padding: 0 28%;
   }
 `

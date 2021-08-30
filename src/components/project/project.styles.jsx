@@ -42,6 +42,7 @@ export const ProjectTitleContainer = styled.h2`
 export const TextContainer = styled.div`
   font-size: 14px;
   margin-bottom: 3vh;
+  text-align: center;
 
   @media screen and (min-width: 750px) {
     font-size: 16px;
@@ -60,6 +61,10 @@ export const LinksContainer = styled.div`
   gap: 5vw;
   align-items: center;
   margin-top: auto;
+
+  @media screen and (min-width: 1250px) {
+    gap: 8vw;
+  }
 `
 
 export const Link = styled.a`
