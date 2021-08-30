@@ -3,13 +3,12 @@ import React from "react"
 import {
   ProjectsContainerDiv,
   ProjectsTitleContainer,
-  DecorationLine,
   ProjectsTextContainer,
   ProjectsFlexContainer,
 } from "./projects.styles"
 
 import Project from "../../components/project/project.component"
-import Separator from "../separator/separator.component";
+import Separator from "../separator/separator.component"
 
 import projectsData from "../../projects-data"
 

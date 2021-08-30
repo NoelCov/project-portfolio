@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import "./about.styles.scss"
+
 import Separator from "../separator/separator.component";
 
 const About = () => {
