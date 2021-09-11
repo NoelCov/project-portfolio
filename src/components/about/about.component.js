@@ -2,16 +2,16 @@ import * as React from "react"
 
 import "./about.styles.scss"
 
-import Separator from "../separator/separator.component";
+import Separator from "../separator/separator.component"
 
 const About = () => {
   return (
     <div id="about" className="about-container">
       <div className="about-title">About Me</div>
       <Separator />
-      <span className="about-me-text">
+      <span className="about-text">
         My name is Noel Covarrubias also known as
-        <span className="nickname"> No3l Codes. </span>I got into programming
+        <span className="about-text nickname"> No3l Codes. </span>I got into programming
         about a year ago. I'm very passionate about it and I want to do this for
         the rest of my life.
       </span>

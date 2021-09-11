@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const ProjectsContainerDiv = styled.div`
+export const ProjectsBlock = styled.div`
   padding: 15vh 2vw 0;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ export const ProjectsContainerDiv = styled.div`
   }
 `
 
-export const ProjectsTitleContainer = styled.div`
+export const ProjectsTitle = styled.div`
   font-size: 26px;
   margin-bottom: 5vh;
   color: #bb86fc;
@@ -25,7 +25,7 @@ export const ProjectsTitleContainer = styled.div`
   }
 `
 
-export const ProjectsTextContainer = styled.p`
+export const ProjectsText = styled.p`
   font-size: 16px;
   color: gray;
   padding: 0 8%;
@@ -43,7 +43,7 @@ export const ProjectsTextContainer = styled.p`
   }
 `
 
-export const ProjectsFlexContainer = styled.div`
+export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 8vh 0 5vh;
